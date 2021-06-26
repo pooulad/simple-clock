@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #067bc2;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box > h1{
+    font-size: 1em;
+}
+.hours, .minutes, .seconds, .amorpm{
+    width: 4em;
+    height: 4em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #ecc30b;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#hours, #minutes, #seconds, #amorpm{
+    font-size: 2em;
+    
+}
+
+
